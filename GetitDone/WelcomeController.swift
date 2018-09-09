@@ -20,8 +20,11 @@ class WelcomeController: UIViewController {
     let infoLabel : UILabel = {
         let label = MyLabel(title: "Welcome. GET IT DONE IS A TO DO LIST.\nA REALLY DOPE TO-DO-LIST.", size: 14, textAlign: .center)
         label.numberOfLines = 2
-        return label }()
+        return label
+    }()
+    let nextButton = UIButton()
     
+    let copyrightLabel = MyLabel(title: "© 2018 | StartxLabs", color: .greyZero, size: 14, textAlign: .center)
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -46,7 +49,17 @@ class WelcomeController: UIViewController {
         infoLabel.heightAnchor.constraint(equalToConstant: 40).isActive = true
         infoLabel.centerXAnchor.constraint(equalTo: backgroundView.centerXAnchor).isActive = true
         infoLabel.centerYAnchor.constraint(equalTo: backgroundView.centerYAnchor).isActive = true
+        
+        backgroundView.addSubview(nextButton)
+        
+        view.addSubview(copyrightLabel)
+        copyrightLabel.widthAnchor.constraint(equalToConstant: 200).isActive = true
+        copyrightLabel.heightAnchor.constraint(equalToConstant: 40).isActive = true
+        copyrightLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        copyrightLabel.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant : -20).isActive = true
+        
     }
     
 }
+
 
