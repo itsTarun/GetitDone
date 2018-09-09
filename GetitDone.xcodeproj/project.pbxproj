@@ -12,6 +12,8 @@
 		F8B2FFAF21457A1F00B0FF23 /* GetitDone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8B2FFAD21457A1F00B0FF23 /* GetitDone.xcdatamodeld */; };
 		F8B2FFB121457A2200B0FF23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B2FFB021457A2200B0FF23 /* Assets.xcassets */; };
 		F8B2FFB421457A2200B0FF23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B2FFB221457A2200B0FF23 /* LaunchScreen.storyboard */; };
+		F8B2FFBC214585C700B0FF23 /* MyGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B2FFBB214585C700B0FF23 /* MyGradient.swift */; };
+		F8B2FFBF21458A6D00B0FF23 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B2FFBE21458A6D00B0FF23 /* extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F8B2FFB021457A2200B0FF23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8B2FFB321457A2200B0FF23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8B2FFB521457A2200B0FF23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8B2FFBB214585C700B0FF23 /* MyGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGradient.swift; sourceTree = "<group>"; };
+		F8B2FFBE21458A6D00B0FF23 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +58,9 @@
 		F8B2FFA521457A1F00B0FF23 /* GetitDone */ = {
 			isa = PBXGroup;
 			children = (
+				F8B2FFBD21458A5700B0FF23 /* Extension */,
 				F8B2FFA621457A1F00B0FF23 /* AppDelegate.swift */,
+				F8B2FFBB214585C700B0FF23 /* MyGradient.swift */,
 				F8B2FFA821457A1F00B0FF23 /* WelcomeController.swift */,
 				F8B2FFB021457A2200B0FF23 /* Assets.xcassets */,
 				F8B2FFB221457A2200B0FF23 /* LaunchScreen.storyboard */,
@@ -62,6 +68,14 @@
 				F8B2FFAD21457A1F00B0FF23 /* GetitDone.xcdatamodeld */,
 			);
 			path = GetitDone;
+			sourceTree = "<group>";
+		};
+		F8B2FFBD21458A5700B0FF23 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F8B2FFBE21458A6D00B0FF23 /* extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +151,8 @@
 				F8B2FFA921457A1F00B0FF23 /* WelcomeController.swift in Sources */,
 				F8B2FFA721457A1F00B0FF23 /* AppDelegate.swift in Sources */,
 				F8B2FFAF21457A1F00B0FF23 /* GetitDone.xcdatamodeld in Sources */,
+				F8B2FFBF21458A6D00B0FF23 /* extension.swift in Sources */,
+				F8B2FFBC214585C700B0FF23 /* MyGradient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
