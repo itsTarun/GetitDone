@@ -9,7 +9,7 @@
 import UIKit
 
 class MyGradient: UIView {
-    // 3A7BD5 / 64E4FF
+
     var colors : [CGColor] = [
         UIColor.blueZero.cgColor,
         UIColor.blueOne.cgColor

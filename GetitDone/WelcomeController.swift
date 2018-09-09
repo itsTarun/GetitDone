@@ -17,11 +17,15 @@ class WelcomeController: UIViewController {
         return view
     }()
     
+    let titleLabel =  UILabel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         view.backgroundColor = .white
+        
+        titleLabel.text = "GET IT DONE"
+        titleLabel.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(backgroundView)
         
         backgroundView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 20).isActive = true
@@ -29,8 +33,13 @@ class WelcomeController: UIViewController {
         backgroundView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -20).isActive = true
         backgroundView.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -20).isActive = true
         
+        
+        view.addSubview(titleLabel)
+        titleLabel.widthAnchor.constraint(equalToConstant: 200).isActive = true
+        titleLabel.heightAnchor.constraint(equalToConstant: 40).isActive = true
+        titleLabel.centerXAnchor.constraint(equalTo: backgroundView.centerXAnchor).isActive = true
+        titleLabel.topAnchor.constraint(equalTo: backgroundView.topAnchor, constant: 60).isActive = true
     }
-    
     
     
 }
