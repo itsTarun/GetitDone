@@ -14,6 +14,7 @@
 		F8B2FFB421457A2200B0FF23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B2FFB221457A2200B0FF23 /* LaunchScreen.storyboard */; };
 		F8B2FFBC214585C700B0FF23 /* MyGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B2FFBB214585C700B0FF23 /* MyGradient.swift */; };
 		F8B2FFBF21458A6D00B0FF23 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B2FFBE21458A6D00B0FF23 /* extension.swift */; };
+		F8B2FFC22145956700B0FF23 /* MyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B2FFC12145956700B0FF23 /* MyLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F8B2FFB521457A2200B0FF23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8B2FFBB214585C700B0FF23 /* MyGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGradient.swift; sourceTree = "<group>"; };
 		F8B2FFBE21458A6D00B0FF23 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		F8B2FFC12145956700B0FF23 /* MyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,9 @@
 		F8B2FFA521457A1F00B0FF23 /* GetitDone */ = {
 			isa = PBXGroup;
 			children = (
+				F8B2FFC02145954600B0FF23 /* custom */,
 				F8B2FFBD21458A5700B0FF23 /* Extension */,
 				F8B2FFA621457A1F00B0FF23 /* AppDelegate.swift */,
-				F8B2FFBB214585C700B0FF23 /* MyGradient.swift */,
 				F8B2FFA821457A1F00B0FF23 /* WelcomeController.swift */,
 				F8B2FFB021457A2200B0FF23 /* Assets.xcassets */,
 				F8B2FFB221457A2200B0FF23 /* LaunchScreen.storyboard */,
@@ -76,6 +78,15 @@
 				F8B2FFBE21458A6D00B0FF23 /* extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		F8B2FFC02145954600B0FF23 /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				F8B2FFBB214585C700B0FF23 /* MyGradient.swift */,
+				F8B2FFC12145956700B0FF23 /* MyLabel.swift */,
+			);
+			path = custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 			files = (
 				F8B2FFA921457A1F00B0FF23 /* WelcomeController.swift in Sources */,
 				F8B2FFA721457A1F00B0FF23 /* AppDelegate.swift in Sources */,
+				F8B2FFC22145956700B0FF23 /* MyLabel.swift in Sources */,
 				F8B2FFAF21457A1F00B0FF23 /* GetitDone.xcdatamodeld in Sources */,
 				F8B2FFBF21458A6D00B0FF23 /* extension.swift in Sources */,
 				F8B2FFBC214585C700B0FF23 /* MyGradient.swift in Sources */,
