@@ -9,10 +9,10 @@
 import UIKit
 
 class MyGradient: UIView {
-    
+    // 3A7BD5 / 64E4FF
     var colors : [CGColor] = [
-        UIColor.init(red: 100, green: 228, blue: 255).cgColor,
-        UIColor.init(red: 58, green: 123, blue: 213).cgColor
+        UIColor.blueZero.cgColor,
+        UIColor.blueOne.cgColor
     ]
     
     override init(frame: CGRect) {
