@@ -17,7 +17,7 @@ class MyLabel : UILabel {
         }
         self.text = title
         self.textColor = color
-        self.font = UIFont.systemFont(ofSize: size)
+        self.font = UIFont.init(name: "Raleway-c4020-SemiBold", size: size)
         self.textAlignment = textAlign
     }
     

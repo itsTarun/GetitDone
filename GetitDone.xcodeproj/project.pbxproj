@@ -28,6 +28,11 @@
 		F8B2FFBB214585C700B0FF23 /* MyGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGradient.swift; sourceTree = "<group>"; };
 		F8B2FFBE21458A6D00B0FF23 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
 		F8B2FFC12145956700B0FF23 /* MyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLabel.swift; sourceTree = "<group>"; };
+		F8B2FFC4214599CB00B0FF23 /* Raleway-v4020-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-v4020-Regular.otf"; sourceTree = "<group>"; };
+		F8B2FFC521459B4F00B0FF23 /* Raleway-v4020-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-v4020-Medium.otf"; sourceTree = "<group>"; };
+		F8B2FFC621459B4F00B0FF23 /* Raleway-v4020-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-v4020-Light.otf"; sourceTree = "<group>"; };
+		F8B2FFC721459B5000B0FF23 /* Raleway-v4020-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-v4020-ExtraBold.otf"; sourceTree = "<group>"; };
+		F8B2FFC821459B5000B0FF23 /* Raleway-v4020-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-v4020-SemiBold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 		F8B2FFA521457A1F00B0FF23 /* GetitDone */ = {
 			isa = PBXGroup;
 			children = (
+				F8B2FFC32145988A00B0FF23 /* fonts */,
 				F8B2FFC02145954600B0FF23 /* custom */,
 				F8B2FFBD21458A5700B0FF23 /* Extension */,
 				F8B2FFA621457A1F00B0FF23 /* AppDelegate.swift */,
@@ -87,6 +93,18 @@
 				F8B2FFC12145956700B0FF23 /* MyLabel.swift */,
 			);
 			path = custom;
+			sourceTree = "<group>";
+		};
+		F8B2FFC32145988A00B0FF23 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F8B2FFC4214599CB00B0FF23 /* Raleway-v4020-Regular.otf */,
+				F8B2FFC721459B5000B0FF23 /* Raleway-v4020-ExtraBold.otf */,
+				F8B2FFC621459B4F00B0FF23 /* Raleway-v4020-Light.otf */,
+				F8B2FFC521459B4F00B0FF23 /* Raleway-v4020-Medium.otf */,
+				F8B2FFC821459B5000B0FF23 /* Raleway-v4020-SemiBold.otf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

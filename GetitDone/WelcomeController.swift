@@ -12,8 +12,7 @@ class WelcomeController: UIViewController {
     
     let backgroundView : UIView =  {
         let view = MyGradient()
-     
-        view.layer.cornerRadius = 16
+        view.layer.cornerRadius = 10
         return view
     }()
     
@@ -38,7 +37,6 @@ class WelcomeController: UIViewController {
         titleLabel.centerXAnchor.constraint(equalTo: backgroundView.centerXAnchor).isActive = true
         titleLabel.topAnchor.constraint(equalTo: backgroundView.topAnchor, constant: 60).isActive = true
     }
-    
     
 }
 
