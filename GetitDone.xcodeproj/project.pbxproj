@@ -18,6 +18,7 @@
 		F8C19B8921483BC3006E73C6 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C19B8821483BC3006E73C6 /* CustomButton.swift */; };
 		F8C19B8B21484490006E73C6 /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C19B8A21484490006E73C6 /* ListController.swift */; };
 		F8C19B902148487C006E73C6 /* CustomHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C19B8F2148487C006E73C6 /* CustomHeader.swift */; };
+		F8C19B9221484E5D006E73C6 /* optionSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C19B9121484E5D006E73C6 /* optionSet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		F8C19B8821483BC3006E73C6 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		F8C19B8A21484490006E73C6 /* ListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
 		F8C19B8F2148487C006E73C6 /* CustomHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomHeader.swift; sourceTree = "<group>"; };
+		F8C19B9121484E5D006E73C6 /* optionSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = optionSet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				F8B2FFBE21458A6D00B0FF23 /* extension.swift */,
+				F8C19B9121484E5D006E73C6 /* optionSet.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				F8B2FFAF21457A1F00B0FF23 /* GetitDone.xcdatamodeld in Sources */,
 				F8B2FFBF21458A6D00B0FF23 /* extension.swift in Sources */,
 				F8B2FFBC214585C700B0FF23 /* CustomGradient.swift in Sources */,
+				F8C19B9221484E5D006E73C6 /* optionSet.swift in Sources */,
 				F8C19B8B21484490006E73C6 /* ListController.swift in Sources */,
 				F8C19B902148487C006E73C6 /* CustomHeader.swift in Sources */,
 			);
