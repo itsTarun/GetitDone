@@ -13,6 +13,7 @@ class CustomHeaderView: UIView {
     let bg = CustomGradient()
     let titleLabel = CustomLabel(size: 14)
     let subTitleLabel = CustomLabel(size: 24)
+    let addButton = CustomButton(title : "+", type : .squareIcon)
     
     init(frame : CGRect = .zero, title : String = "HeaderTitle", subTitle: String = "Subtitle")
     {
@@ -43,6 +44,12 @@ class CustomHeaderView: UIView {
         subTitleLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor).isActive = true
         subTitleLabel.leftAnchor.constraint(equalTo: leftAnchor, constant : 28).isActive = true
         subTitleLabel.rightAnchor.constraint(equalTo: centerXAnchor,constant : 50).isActive = true
+        
+        addSubview(addButton)
+        addButton.bottomAnchor.constraint(equalTo: subTitleLabel.centerYAnchor).isActive = true
+        addButton.rightAnchor.constraint(equalTo: rightAnchor, constant : -28).isActive = true
+        addButton.heightAnchor.constraint(equalToConstant: 25).isActive = true
+        addButton.widthAnchor.constraint(equalTo: addButton.heightAnchor, multiplier : 1).isActive = true
         
     }
     
