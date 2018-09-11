@@ -8,7 +8,9 @@
 
 import UIKit
 
-class CustomHeader: UIView {
+class CustomHeaderView: UIView {
+    
+    let bg = CustomGradient()
     
     init(frame : CGRect = .zero, title : String = "HeaderTitle", subTitle: String = "Subtitle")
     {
@@ -16,9 +18,21 @@ class CustomHeader: UIView {
         if frame == .zero {
             translatesAutoresizingMaskIntoConstraints = false
         }
+        setupLayout()
+    }
+    
+    private func setupLayout() {
+        addSubview(bg)
+        bg.leftAnchor.constraint(equalTo: leftAnchor).isActive = true
+        bg.rightAnchor.constraint(equalTo: rightAnchor).isActive = true
+        bg.topAnchor.constraint(equalTo: topAnchor).isActive = true
+        bg.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
     }
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 }
+
+
+// 
