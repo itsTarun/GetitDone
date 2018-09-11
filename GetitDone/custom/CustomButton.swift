@@ -10,14 +10,23 @@ import UIKit
 
 class CustomButton : UIButton {
     var title : String!
-    init(title : String = "Next", frame : CGRect = .zero) {
+    init(title : String = "Next", frame : CGRect = .zero, type: ButtonOptions = .roundedText) {
         super.init(frame: frame)
         if frame == .zero {
             self.translatesAutoresizingMaskIntoConstraints = false
         }
-        
-        self.title = title
-        self.phaseTwo()
+        switch type {
+        case .roundedText:
+            self.title = title
+            self.phaseTwo()
+ 
+            break
+        case .squareIcon:
+            break
+            
+        default:
+            break
+        }
     }
     
 

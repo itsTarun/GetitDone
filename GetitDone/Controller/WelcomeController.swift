@@ -25,7 +25,7 @@ class WelcomeController: UIViewController {
         
     }()
     
-    let nextButton = CustomButton(title: "Start Winning")
+    let nextButton = CustomButton(title: "Start Winning", type : .roundedText)
     
     let copyrightLabel = CustomLabel(title: "© 2018 | StartxLabs", color: .greyDark, size: 14, textAlign: .center)
     
