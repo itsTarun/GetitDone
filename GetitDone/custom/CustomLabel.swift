@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MyLabel : UILabel {
+class CustomLabel : UILabel {
     
     init(title: String = "default text",frame: CGRect = .zero, color : UIColor = .white, size : CGFloat = 16, textAlign : NSTextAlignment = .left) {
         super.init(frame: frame)

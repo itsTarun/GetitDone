@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MyGradient: UIView {
+class CustomGradient: UIView {
 
     var colors : [CGColor] = [
         UIColor.blueZero.cgColor,
