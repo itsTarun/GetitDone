@@ -16,6 +16,7 @@
 		F8B2FFBF21458A6D00B0FF23 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B2FFBE21458A6D00B0FF23 /* extension.swift */; };
 		F8B2FFC22145956700B0FF23 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B2FFC12145956700B0FF23 /* CustomLabel.swift */; };
 		F8C19B8921483BC3006E73C6 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C19B8821483BC3006E73C6 /* CustomButton.swift */; };
+		F8C19B8B21484490006E73C6 /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C19B8A21484490006E73C6 /* ListController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		F8B2FFC721459B5000B0FF23 /* Raleway-v4020-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-v4020-ExtraBold.otf"; sourceTree = "<group>"; };
 		F8B2FFC821459B5000B0FF23 /* Raleway-v4020-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-v4020-SemiBold.otf"; sourceTree = "<group>"; };
 		F8C19B8821483BC3006E73C6 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		F8C19B8A21484490006E73C6 /* ListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +73,7 @@
 				F8B2FFC02145954600B0FF23 /* custom */,
 				F8B2FFBD21458A5700B0FF23 /* Extension */,
 				F8B2FFA621457A1F00B0FF23 /* AppDelegate.swift */,
-				F8B2FFA821457A1F00B0FF23 /* WelcomeController.swift */,
+				F8C19B8C214845A0006E73C6 /* Controller */,
 				F8B2FFB021457A2200B0FF23 /* Assets.xcassets */,
 				F8B2FFB221457A2200B0FF23 /* LaunchScreen.storyboard */,
 				F8B2FFB521457A2200B0FF23 /* Info.plist */,
@@ -108,6 +110,15 @@
 				F8B2FFC821459B5000B0FF23 /* Raleway-v4020-SemiBold.otf */,
 			);
 			path = fonts;
+			sourceTree = "<group>";
+		};
+		F8C19B8C214845A0006E73C6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F8B2FFA821457A1F00B0FF23 /* WelcomeController.swift */,
+				F8C19B8A21484490006E73C6 /* ListController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +198,7 @@
 				F8B2FFAF21457A1F00B0FF23 /* GetitDone.xcdatamodeld in Sources */,
 				F8B2FFBF21458A6D00B0FF23 /* extension.swift in Sources */,
 				F8B2FFBC214585C700B0FF23 /* CustomGradient.swift in Sources */,
+				F8C19B8B21484490006E73C6 /* ListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
