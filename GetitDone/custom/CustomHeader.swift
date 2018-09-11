@@ -48,7 +48,7 @@ class CustomHeaderView: UIView {
         addSubview(addButton)
         addButton.bottomAnchor.constraint(equalTo: subTitleLabel.centerYAnchor).isActive = true
         addButton.rightAnchor.constraint(equalTo: rightAnchor, constant : -28).isActive = true
-        addButton.heightAnchor.constraint(equalToConstant: 25).isActive = true
+        addButton.heightAnchor.constraint(equalToConstant: 24).isActive = true
         addButton.widthAnchor.constraint(equalTo: addButton.heightAnchor, multiplier : 1).isActive = true
         
     }
